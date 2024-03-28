@@ -69,7 +69,7 @@ if __name__ == "__main__":
                         print("Alert!")
                         if current_time - last_alert_time >= 60:
                             send_alert()
-                            print("ALERT sended to email")
+                            print("ALERT sent to email")
 
                             last_alert_time = current_time
                         tracking.pop(0)
