@@ -36,7 +36,6 @@ def send_alert():
     email_host = 'smtp.gmail.com'
     email_port = 587
     email_login = 'alert.faint.bot@gmail.com'
-    # email_password = 'alertbotfaint'
     email_password = 'dlic msqh wtsw ljcd'
 
     msg = MIMEMultipart()
